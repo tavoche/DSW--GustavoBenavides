@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fase 2</title>
+</head>
+
+<body>
+    <div>
+        <div><img src="Imagenes/Logo_unad.png"></div>
+        <div><h1>Estructura básica de html5 (etiquetas, atributos y valores)</h1></div>
+    </div>
+
+    <div>
+        <h2><b>Objetivo genereal</b></h2>
+            <p>Diseñar 5 OVAs de los temas del curso Diseño de Sitios Web</p>
+                <h3>Objetivos especificos</h3>
+                    <ul>
+                        <li>Aprender a desarrollar en HTML</li>
+                        <li>Conocer y comprender el uso de las etiquetas de HTML</li>
+                        <li>Conocer y comprender el uso de los atributos y estructurar una pagina Web</li>
+                    </ul>
+    </div>
+
+    <div>
+        <h2><b>Materiales</b></h2>
+            <ul>
+                <li><a href="https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/" target="_blank">Estructura del código HTML5 – Anatomía de una página web</a></li>
+                <li><a href="https://www.arkaitzgarro.com/xhtml/capitulo-3.html" target="_blank">ETIQUETAS, ATRIBUTOS Y ELEMENTOS</a></li>
+            </ul>
+    </div>
+
+    <div>
+        <h2><b>Contenido</b></h2>
+            <h3><b>Anatomía del código HTML5 – Las partes y su significado</b></h3></br>
+                <h4><span id="DOCTYPE">DOCTYPE</span></h4>
+                    &lt;!DOCTYPE html&gt;
+                    <p>La etiqueta <strong>doctype</strong> <strong>declara el tipo de documento</strong>, por lo que esta está señalando que este es un documento HTML.</p></br>
+                
+                <h4><span id="HTML">HTML</span></h4>
+                    &lt;html&gt;&lt;/html&gt;
+                    <p>Delimita el documento <strong>HTML</strong>.</p>
+                    <h5><span id="Atributo_a_destacar">Atributo a destacar</span></h5>
+                    <table class="egt" frame="box" rules="all">
+                        <tr>
+                            <th> Etiqueta </th>
+                            <th> Atributos </th>
+                            <th> Descripción </th>
+                        </tr>
+                        <tr>
+                            <td> &lt;html lang=&quot;es&quot;&gt;</td>
+                            <td> LANG </td>
+                            <td> Indica el lenguaje de contenido del código. </td>
+                        </tr>
+                    </table></br>
+                       
+                <h4><span id="HEAD">HEAD</span></h4>
+                    &lt;head&gt;&lt;/head&gt;
+                    <p>El elemento <strong>head delimita la cabecera del documento</strong>, entre sus etiquetas contiene información como scripts, metadatos, estilos, ubicación de documentos de estilos, título de la página, etc.</p></br>
+
+                <h4><span id="META">META</span></h4>
+                    &lt;meta name=&quot;description&quot; content=&quot;Descripción de la WEB&quot;&gt; 
+                    <p>Las meta etiquetas se utilizan para identificar propiedades del documento como por ejemplo el autor, el título y la descripción que mostrarán los buscadores, etc.</p>
+                    <h5><span id="Atributo_a_destacar">Atributo a destacar</span></h5>
+                    <table class="egt" frame="box" rules="all">
+                        <tr>
+                            <th> Etiqueta </th>
+                            <th> Atributos </th>
+                            <th> Descripción </th>
+                        </tr>
+                        <tr>
+                            <td> &lt;meta charset=&quot;UTF-8&quot;&gt; </td>
+                            <td> META CHARSET </td>
+                            <td> Establece el tipo de codificación del documento. </td>
+                        </tr>
+                        <tr>
+                            <td> &lt;meta name=&quot;title&quot; content=&quot;Título de la WEB&quot;&gt; </td>
+                            <td> META TITLE </td>
+                            <td> Contiene el titulo que se mostrará en los buscadores. </td>
+                        </tr>
+                        <tr>
+                            <td> &lt;meta name=&quot;description&quot; content=&quot;Descripción de la WEB&quot;&gt; </td>
+                            <td> META DESCRIPTION </td>
+                            <td> Es el texto que se muestra bajo el título en los motores de búsqueda. </td>
+                        </tr>
+                    </table></br>
+                       
+                <h4><span id="LINK">LINK</span></h4>
+                    &lt;link &gt; 
+                    <p>Esta etiqueta contiene un link a una hoja de estilos externa, la cual se utilizará en este documento.</p>
+                    <h5><span id="Atributo_a_destacar-2">Atributo a destacar</span></h5>
+                    <table class="egt" frame="box" rules="all">
+                        <tr>
+                            <th> Etiqueta </th>
+                            <th> Atributos </th>
+                            <th> Descripción </th>
+                        </tr>
+                        <tr>
+                            <td> &lt;link href=&quot;http://dominio.com/hoja-de-estilos.css&quot; &gt; </td>
+                            <td> HREF </td>
+                            <td> Indica el lenguaje de contenido del código. </td>
+                        </tr>
+                    </table></br>
+
+                <h4><span id="BODY">BODY</span></h4>
+                    &lt;body&gt;&lt;/body&gt;
+                    <p>La etiqueta body delimita el cuerpo del documento y contiene todo aquello que podremos ver en nuestro navegador. Imágenes, textos, enlaces, video, etc…</p></br>
+
+                <h4><span id="HEADER">HEADER</span></h4>
+                    &lt;header&gt;&lt;/header&gt;
+                    <p>El contenido de esta etiqueta debe ser la cabecera de nuestra página donde se suele encontrar el título, el logotipo y poco más.</p></br>
+
+                <h4><span id="NAV">NAV</span></h4>
+                    &lt;nav&gt;&lt;/nav&gt;
+                    <p>Esta etiqueta sirve para delimitar el menú de la página, donde colocaremos los enlaces internos para movernos entre nuestras diferentes secciones del sitio web.</p></br>
+
+                <h4><span id="A">A</span></h4>
+                    &lt;a&gt;
+                    <p>Representa un enlace o hipervínculo.</p>
+                    <h5><span id="Atributos_a_destacar">Atributos a destacar.</span></h5>
+                    <table class="egt" frame="box" rules="all">
+                        <tr>
+                            <th> Etiqueta </th>
+                            <th> Atributos </th>
+                            <th> Descripción </th>
+                        </tr>
+                        <tr>
+                            <td> &lt;a href=&quot;http://dominio.com/seccion2.html&quot;&gt;IR SECCIÓN 2&lt;/a&gt; </td>
+                            <td> HREF </td>
+                            <td> Dirección URL hacia la que apunta el enlace. </td>
+                        </tr>
+                    </table></br>
+
+                <h4><span id="H1_H2_H3_H4_H5_H6">H1, H2, H3, H4, H5, H6</span></h4>
+                    &lt;h1&gt;Título de la WEB&lt;/h1&gt;
+                    &lt;h2&gt;CONTENIDO PRINCIPAL&lt;/h2&gt;
+                    &lt;h3&gt;Testimonios&lt;/h3&gt;
+                    &lt;h4&gt;Avisos legales&lt;/h4&gt;
+                    <p>Estas etiquetas establecen los encabezados. Se organizan por niveles siendo H1 el más importante y H6 el menos importante.</p></br>
+
+                <h4><span id="SECTION">SECTION</span></h4>
+                    &lt;section&gt;&lt;/section&gt;
+                    <p>La etiqueta section engloba una sección de texto, imágenes y otros elementos que guardan cierta relación entre ellos. Normalmente siempre le podremos poner un título o encabezado.</p></br>
+
+                <h4><span id="ARTICLE">ARTICLE</span></h4>
+                    &lt;article&gt;&lt;/article&gt;
+                    <p>La etiqueta article se suele encontrar dentro de una etiqueta section y sirve para dividir y ordenar los contenidos en su interior.</p></br>
+
+                <h4><span id="DIV">DIV</span></h4>
+                    &lt;div&gt;&lt;/div&gt;
+                    <p>Otra forma de dividir contenido para posteriormente aplicarle clases y modificar su estilo.</p></br>
+
+                <h4><span id="P">P</span></h4>
+                    &lt;p&gt;&lt;/p&gt;
+                    <p>Entre las etiquetas P colocaremos un párrafo de texto.</p></br>
+
+                <h4><span id="IMG">IMG</span></h4>
+                    &lt;img src=&quot;http://dominio.com/imagen.jpg&quot; alt=&quot;paisaje&quot;&gt;
+                    <p>Esta etiqueta coloca una imagen en el documento mediante un enlace.</p>
+                    <h5><span id="Atributos_a_destacar-2">Atributos a destacar.</span></h5>
+                    <table class="egt" frame="box" rules="all">
+                        <tr>
+                            <th> Etiqueta </th>
+                            <th> Atributos </th>
+                            <th> Descripción </th>
+                        </tr>
+                        <tr>
+                            <td> &lt;img alt=&quot;paisaje&quot;&gt; </td>
+                            <td> ALT </td>
+                            <td> Representa el texto alternativo, muy importante para que los bucadores puedan obtener información de la imagen. </td>
+                        </tr>
+                        <tr>
+                            <td> &lt;img src=&quot;http://dominio.com/imagen.jpg&quot; </td>
+                            <td> SRC </td>
+                            <td> URL donde se encuentra la imagen. </td>
+                        </tr>
+                    </table></br>
+
+                <h4><span id="ASIDE">ASIDE</span></h4>
+                    &lt;aside&gt;&lt;/aside&gt;
+                    <p>Contiene información no vital o que no está estrechamente relacionada con el contenido principal de la página como podrían ser banners de anuncios, citas o enlaces externos.</p></br>
+                
+                <h4><span id="FOOTER">FOOTER</span></h4>
+                    &lt;footer&gt;&lt;/footer&gt;
+                    <p>Aquí encontraríamos el código perteneciente al pie de página, donde se suelen colocar los enlaces a textos legales, el copyright, etc.</p></br>
+    </div>
+    <div>
+        <div class="row">
+            <div class="span9">
+                <h1 id="etiquetas-atributos-y-elementos">Atributos y elementos</h1>
+                <p>Las <strong>etiquetas</strong> son la estructura básica del HTML. Estas etiquetas o <em>tags</em> se componen y contienen otras propiedades, como son los <strong>atributos</strong> y el <strong>contenido</strong>.</p>
+        
+        <p><strong>HTML</strong> define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. Sin embargo, una etiqueta por sí sola a veces no contiene la suficiente información para estar completamente definida. Para ello contamos con los <strong>atributos</strong>: pares <em>nombre-valor</em> separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 'simples'. Existen, también, algunos atributos que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo <code>ismap</code> para el elemento <code>&lt;img&gt;</code>.</p>
+        
+        <p>Esta sería la <strong>estructura general de una línea de código en lenguaje HTML</strong>:</p>
+        
+        <div class="code html">
+        <pre class="html5"><span class="sc2">&lt;tag attribute1<span class="sy0">=</span><span class="st0">&quot;value1&quot;</span> attribute2<span class="sy0">=</span><span class="st0">&quot;value2&quot;</span>&gt;</span>content<span class="sc2">&lt;<span class="sy0">/</span>tag&gt;</span></pre>
+        </div>
+        
+        <p>O lo que es lo mismo, con un ejemplo:</p>
+        
+        <div class="code html">
+        <pre class="html5"><span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;http://www.enlace.com&quot;</span> <span class="kw3">target</span><span class="sy0">=</span><span class="st0">&quot;_blank&quot;</span>&gt;</span>Ejemplo de enlace<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span></pre>
+        </div>
+        
+        <p>Donde:</p>
+        
+        <ul>
+        <li><code>&lt;a&gt;</code> es la etiqueta o <em>tag</em> inicial y <code>&lt;/a&gt;</code> la etiqueta de cierre.</li>
+        <li><code>href</code> y <code>target</code> son los atributos.</li>
+        <li><code>http://www.enlace.com</code> y <code>_blank</code> son las variables.</li>
+        <li><code>Ejemplo de enlace</code> es el contenido.</li>
+        </ul>
+        
+        <p>Aunque también existen elementos vacíos que no necesitan <em>tag</em> de cierre, cuya estructura sería ésta:</p>
+        
+        <div class="code html">
+        <pre class="html5"><span class="sc2">&lt;tag attribute1<span class="sy0">=</span><span class="st0">&quot;value1&quot;</span> attribute2<span class="sy0">=</span><span class="st0">&quot;value2&quot;</span> <span class="sy0">/</span>&gt;</span></pre>
+        </div>
+        
+        <p>Estos elementos vacíos no constan de contenido, como por ejemplo, los <em>tags</em> <code>&lt;br&gt;</code> o <code>&lt;img&gt;</code>.</p>
+        
+        <h2 id="tipos-de-atributos">Tipos de atributos</h2>
+        
+        <p>Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:</p>
+        
+        <ul>
+        <li>Atributos <strong>básicos</strong></li>
+        <li>Atributos de <strong>internacionalización</strong></li>
+        <li>Atributos de <strong>eventos</strong></li>
+        <li>Atributos de <strong>foco</strong></li>
+        </ul>
+        
+        <h3 id="atributos-basicos">Atributos básicos</h3>
+        
+        <p>Los atributos básicos se utilizan en la mayoría de etiquetas <strong>HTML</strong> y <strong>XHTML</strong>, aunque adquieren mayor sentido cuando se utilizan hojas de estilo en cascada (<strong>CSS</strong>):</p>
+        
+        <div class="table" id="table-3-1">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributo</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>id="texto"</code></td>
+          <td >Establece un indicador único a cada elemento</td>
+        </tr>
+        <tr>
+          <td><code>class="texto"</code></td>
+          <td >Establece la clase CSS que se aplica a los estilos del elemento</td>
+        </tr>
+        <tr>
+          <td><code>style="texto"</code></td>
+          <td >Aplica de forma directa los estilos CSS de un elemento</td>
+        </tr>
+        <tr>
+          <td><code>title="texto"</code></td>
+          <td >Establece el título del elemento (Mejora la accesibilidad)</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <h3 id="atributos-de-internacionalizacion-o-i18n">Atributos de internacionalización o <em>i18n</em></h3>
+        
+        <p>Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios <strong>idiomas</strong> y las que quieran indicar de forma explícita el idioma de sus contenidos:</p>
+        
+        <div class="table" id="table-3-2">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributo</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>lang="codigo"</code></td>
+          <td >Indica el idioma del elemento</td>
+        </tr>
+        <tr>
+          <td><code>xml:lang="codigo"</code></td>
+          <td >Indica el idioma del elemento, aunque tiene más prioridad que el atributo anterior y es obligatorio si se incluye el atributo <code>lang</code></td>
+        </tr>
+        <tr>
+          <td><code>dir</code></td>
+          <td >Indica la dirección del texto</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <h3 id="atributos-de-eventos">Atributos de eventos</h3>
+        
+        <p>Estos atributos se utilizan en las páginas web que incluyen código <strong>JavaScript</strong> para realizar acciones dinámicas sobre los elementos de la página.</p>
+        
+        <p><strong>Pueden ser utilizados por: <em>todos los elementos</em></strong></p>
+        
+        <div class="table" id="table-3-3">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>onclick</code></td>
+          <td >Ejecuta la acción cuando se realiza un clic sobre el elemento</td>
+        </tr>
+        <tr>
+          <td><code>ondblclick</code></td>
+          <td >Ejecuta la acción cuando se realiza un doble clic sobre el elemento</td>
+        </tr>
+        <tr>
+          <td><code>onmousedown</code></td>
+          <td >Ejecuta la acción cuando se detecta el botón pulsado del ratón</td>
+        </tr>
+        <tr>
+          <td><code>onmouseup</code></td>
+          <td >Ejecuta la acción cuando se detecta que se ha soltado el botón del ratón</td>
+        </tr>
+        <tr>
+          <td><code>onmousemove</code></td>
+          <td >Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento</td>
+        </tr>
+        <tr>
+          <td><code>onmouseout</code></td>
+          <td >Ejecuta la acción cuando el ratón abandona el elemento</td>
+        </tr>
+        <tr>
+          <td><code>onmouseover</code></td>
+          <td >Ejecuta la acción cuando se detecta que el ratón se sitúa sobre el elemento</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <p><strong>Pueden ser utilizados por: <code>&lt;body&gt;</code></strong></p>
+        
+        <div class="table" id="table-3-4">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>onload</code></td>
+          <td >Ejecuta la acción cuando se carga el documento</td>
+        </tr>
+        <tr>
+          <td><code>onunload</code></td>
+          <td >Ejecuta la acción cuando se abandona el documento</td>
+        </tr>
+        <tr>
+          <td><code>onresize</code></td>
+          <td >Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <p><strong>Pueden ser utilizados por: <em>elementos de formulario</em> y <code>&lt;body&gt;</code></strong></p>
+        
+        <div class="table" id="table-3-5">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>onkeydown</code></td>
+          <td >Ejecuta la acción cuando se detecta que la tecla esta pulsada</td>
+        </tr>
+        <tr>
+          <td><code>onkeyup</code></td>
+          <td >Ejecuta la acción cuando se detecta que se ha soltado la tecla pulsada</td>
+        </tr>
+        <tr>
+          <td><code>onkeypress</code></td>
+          <td >Ejecuta la acción cuando se pulsa una tecla</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <p><strong>Pueden ser utilizados por: <em>varios</em></strong></p>
+        
+        <div class="table" id="table-3-6">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+          <th>Elementos que pueden usarlo</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>onblur</code></td>
+          <td >Ejecuta la acción cuando el elemento pierde el foco bien sea a través del ratón o por navegación tabulada</td>
+          <td><code>&lt;button&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;body&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>onfocus</code></td>
+          <td >Ejecuta la acción cuando el elemento obtiene el foco bien sea a través del ratón o por navegación tabulada</td>
+          <td><code>&lt;button&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;body&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>onchange</code></td>
+          <td >Ejecuta la acción cuando el valor de un control ha sido modificado</td>
+          <td><code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>onreset</code></td>
+          <td >Ejecuta la acción cuando el formulario es restablecido a sus valores por defecto</td>
+          <td><code>&lt;form&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>onselect</code></td>
+          <td >Ejecuta la acción cuando un usuario selecciona texto en un campo de texto</td>
+          <td><code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>onsubmit</code></td>
+          <td >Ejecuta la acción cuando el formulario es enviado</td>
+          <td><code>&lt;form&gt;</code></td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <h3 id="atributos-de-foco">Atributos de foco</h3>
+        
+        <p>Se le denomina <strong>foco</strong> o <em>focus</em>, cuando un control o elemento del documento ha sido seleccionado. Cuando ese elemento deja de estar seleccionado, "pierde el foco" y es el nuevo elemento seleccionado el que se dice que tiene "el foco".</p>
+        
+        <div class="table" id="table-3-7">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>accesskey="letra"</code></td>
+          <td >Establece una tecla de acceso rápido a un elemento HTML</td>
+        </tr>
+        <tr>
+          <td><code>tabindex="numero"</code></td>
+          <td >Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y 32.767)</td>
+        </tr>
+        <tr>
+          <td><code>onfocus</code>, <code>onblur</code></td>
+          <td >Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <h2 id="elementos">Elementos</h2>
+        
+        <p>Además de etiquetas y atributos, HTML define el término <strong>elemento</strong> para referirse a las partes que componen los documentos HTML. Como ya hemos mencionado antes, la estructura general de una línea de código en lenguaje HTML sería ésta:</p>
+        
+        <div class="code html">
+        <pre class="html5"><span class="sc2">&lt;tag attribute1<span class="sy0">=</span><span class="st0">&quot;value1&quot;</span> attribute2<span class="sy0">=</span><span class="st0">&quot;value2&quot;</span>&gt;</span>content<span class="sc2">&lt;<span class="sy0">/</span>tag&gt;</span></pre>
+        </div>
+        
+        <p>El lenguaje HTML clasifica a todos los elementos en dos grupos: <strong>elementos en línea</strong> o <em>inline elements</em> y <strong>elementos en bloque</strong> o <em>block elements</em>.</p>
+        
+        <p>La diferencia entre ambos viene dada por el <strong>modelo de contenido</strong>, por el <strong>formato</strong> y la <strong>dirección</strong>. La principal diferencia entre los dos tipos de elementos es la forma en la que ocupan el espacio disponible en la página: los <strong>elementos en bloque</strong> siempre empiezan en una nueva línea y ocupan todo el espacio disponible hasta el final de la línea, mientras que los <strong>elementos en línea</strong> sólo ocupan el espacio necesario para mostrar sus contenidos.</p>
+        
+        <h3 id="elementos-en-linea-definidos-por-html">Elementos en línea (definidos por HTML)</h3>
+        
+        <div class="table" id="table-3-8">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>a</code></td>
+          <td >Define un anchor (anclaje o hipervínculo)</td>
+        </tr>
+        <tr>
+          <td><code>abbr</code></td>
+          <td >Marca las abreviaturas del texto y proporciona el significado de esas abreviaturas</td>
+        </tr>
+        <tr>
+          <td><code>acronym</code></td>
+          <td >Marca las siglas o acrónimos del texto y proporciona el significado de esas siglas</td>
+        </tr>
+        <tr>
+          <td><code>b</code></td>
+          <td >Indica que el texto debe ser representado e  <em>bold</em> (o negrita)</td>
+        </tr>
+        <tr>
+          <td><code>basefont</code></td>
+          <td >Permite cambiar algunas propiedades del texto</td>
+        </tr>
+        <tr>
+          <td><code>bdo</code></td>
+          <td >Anulación del algoritmo bidireccional (en referencia a la dirección de la escritura)</td>
+        </tr>
+        <tr>
+          <td><code>big</code></td>
+          <td >Muestra el texto marcado con un tamaño de fuente más grande</td>
+        </tr>
+        <tr>
+          <td><code>br</code></td>
+          <td ><em>line break</em> - ruptura (o salto) de línea</td>
+        </tr>
+        <tr>
+          <td><code>cite</code></td>
+          <td >Se emplea para marcar una cita o una referencia a otras fuentes</td>
+        </tr>
+        <tr>
+          <td><code>code</code></td>
+          <td >Delimita el texto considerado un fragmento de código fuente</td>
+        </tr>
+        <tr>
+          <td><code>dfn</code></td>
+          <td >Marca las definiciones de ciertos términos y proporciona el significado de éstos</td>
+        </tr>
+        <tr>
+          <td><code>em</code></td>
+          <td ><em>emphasis</em> – énfasis</td>
+        </tr>
+        <tr>
+          <td><code>font</code></td>
+          <td >Indica el tamaño, color, o fuente del texto que contiene</td>
+        </tr>
+        <tr>
+          <td><code>i</code></td>
+          <td >Muestra el texto marcado con un estilo en <em>cursiva</em> o itálica</td>
+        </tr>
+        <tr>
+          <td><code>img</code></td>
+          <td >Imagen</td>
+        </tr>
+        <tr>
+          <td><code>input</code></td>
+          <td >Posibilita y define la introducción de datos en el formulario</td>
+        </tr>
+        <tr>
+          <td><code>kbd</code></td>
+          <td >Indicar al usuario el texto que debe introducir</td>
+        </tr>
+        <tr>
+          <td><code>label</code></td>
+          <td >Asocia un rótulo o etiqueta a un campo de un formulario</td>
+        </tr>
+        <tr>
+          <td><code>q</code></td>
+          <td ><em>short quotations</em> - cita corta</td>
+        </tr>
+        <tr>
+          <td><code>s</code></td>
+          <td ><em>strike-through</em> - tachado</td>
+        </tr>
+        <tr>
+          <td><code>samp</code></td>
+          <td >Sirve identificar una muestra de los caracteres que forman la salida o el resultado de algún proceso</td>
+        </tr>
+        <tr>
+          <td><code>select</code></td>
+          <td >Crea un contenedor mediante el cual el usuario puede seleccionar de una lista de opciones</td>
+        </tr>
+        <tr>
+          <td><code>small</code></td>
+          <td >Aplica al texto marcado un tamaño de fuente más pequeño</td>
+        </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td >Es un contenedor genérico en línea. Sirve para para aplicar estilo al texto o agrupar elementos en línea</td>
+        </tr>
+        <tr>
+          <td><code>strike</code></td>
+          <td >Muestra el texto tachado con una linea horizontal</td>
+        </tr>
+        <tr>
+          <td><code>strong</code></td>
+          <td >Marca con especial énfasis las partes más importantes de un texto</td>
+        </tr>
+        <tr>
+          <td><code>sub</code></td>
+          <td>Crea un subíndice posicionando el texto marcado por debajo de la linea</td>
+        </tr>
+        <tr>
+          <td><code>sup</code></td>
+          <td>Crea un superíndice posicionando el texto marcado por encima de la linea</td>
+        </tr>
+        <tr>
+          <td><code>textarea</code></td>
+          <td>Crea un control de entrada de texto multilínea</td>
+        </tr>
+        <tr>
+          <td><code>tt</code></td>
+          <td>Representa como texto de teletipo o ancho fijo</td>
+        </tr>
+        <tr>
+          <td><code>u</code></td>
+          <td>Muestra el texto subrayado</td>
+        </tr>
+        <tr>
+          <td><code>var</code></td>
+          <td>Marca variables de programas y similares</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <h3 id="elementos-en-bloque-definidos-por-html">Elementos en bloque (definidos por HTML)</h3>
+        
+        <div class="table" id="table-3-9">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th>Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>address</code></td>
+          <td >Contiene la información de contacto con los autores del documento</td>
+        </tr>
+        <tr>
+          <td><code>blockquote</code></td>
+          <td >Indica que el texto que encierra es una cita textual de otro texto externos</td>
+        </tr>
+        <tr>
+          <td><code>center</code></td>
+          <td >Crea una caja en bloque con el contenido centrado</td>
+        </tr>
+        <tr>
+          <td><code>dir</code></td>
+          <td >Crea listas multicolumna de directorios</td>
+        </tr>
+        <tr>
+          <td><code>div</code></td>
+          <td >Es un elemento en bloque genérico y sirve para crear secciones o agrupar contenidos</td>
+        </tr>
+        <tr>
+          <td><code>dl</code></td>
+          <td >Crea una lista de definiciones</td>
+        </tr>
+        <tr>
+          <td><code>fieldset</code></td>
+          <td >Permite organizar en grupos los campos de un formulario</td>
+        </tr>
+        <tr>
+          <td><code>form</code></td>
+          <td >Actúa como contenedor de controles. Representa un formulario</td>
+        </tr>
+        <tr>
+          <td><code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code></td>
+          <td >Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente</td>
+        </tr>
+        <tr>
+          <td><code>hr</code></td>
+          <td >Crea una linea de separación horizontal</td>
+        </tr>
+        <tr>
+          <td><code>isindex</code></td>
+          <td >Crea un control de entrada de texto de una línea</td>
+        </tr>
+        <tr>
+          <td><code>menu</code></td>
+          <td >Crea un menú</td>
+        </tr>
+        <tr>
+          <td><code>noframes</code></td>
+          <td >(sin marcos) - aporta contenidos alternativos a los marcos</td>
+        </tr>
+        <tr>
+          <td><code>nos-cript</code></td>
+          <td >Contenedor de contenido alternativo para la representación no basada en <em>scripts</em></td>
+        </tr>
+        <tr>
+          <td><code>ol</code></td>
+          <td >Crea una lista ordenada</td>
+        </tr>
+        <tr>
+          <td><code>p</code></td>
+          <td >Párrafo</td>
+        </tr>
+        <tr>
+          <td><code>pre</code></td>
+          <td >Permite que el texto conserve el formato y sea mostrado tal cual</td>
+        </tr>
+        <tr>
+          <td><code>table</code></td>
+          <td >Tabla</td>
+        </tr>
+        <tr>
+          <td><code>ul</code></td>
+          <td >Crea una lista no ordenada</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <h3 id="mas-elementos-considerados-en-bloque">Más elementos considerados en bloque</h3>
+        
+        <div class="table" id="table-3-10">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>dd</code></td>
+          <td >Descripción de una definición</td>
+        </tr>
+        <tr>
+          <td><code>dt</code></td>
+          <td >Término definido</td>
+        </tr>
+        <tr>
+          <td><code>frame-set</code></td>
+          <td >Subdivisión en ventanas</td>
+        </tr>
+        <tr>
+          <td><code>li</code></td>
+          <td >Objeto de lista</td>
+        </tr>
+        <tr>
+          <td><code>tbody</code></td>
+          <td >Cuerpo de tabla</td>
+        </tr>
+        <tr>
+          <td><code>td</code></td>
+          <td >Celda de datos de una tabla</td>
+        </tr>
+        <tr>
+          <td><code>tfoot</code></td>
+          <td >Pie de tabla</td>
+        </tr>
+        <tr>
+          <td><code>th</code></td>
+          <td >Celda de encabezado de tabla</td>
+        </tr>
+        <tr>
+          <td><code>thead</code></td>
+          <td>Cabecera de tabla</td>
+        </tr>
+        <tr>
+          <td><code>tr</code></td>
+          <td>Fila de una tabla</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        
+        
+        <h3 id="elementos-que-pueden-ser-en-linea-y-en-bloque">Elementos que pueden ser en línea y en bloque</h3>
+        
+        <div class="table" id="table-3-11">
+        
+            <table frame="box" rules="all">
+        <thead>
+        <tr>
+          <th>Atributos</th>
+          <th >Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><code>button</code></td>
+          <td >Botón</td>
+        </tr>
+        <tr>
+          <td><code>del</code></td>
+          <td >Texto borrado</td>
+        </tr>
+        <tr>
+          <td><code>iframe</code></td>
+          <td >Subventana en línea</td>
+        </tr>
+        <tr>
+          <td><code>ins</code></td>
+          <td >Texto insertado</td>
+        </tr>
+        <tr>
+          <td><code>map</code></td>
+          <td >Mapa de imágenes en el lado del cliente</td>
+        </tr>
+        <tr>
+          <td><code>object</code></td>
+          <td >Objeto genérico incluído</td>
+        </tr>
+        <tr>
+          <td><code>script</code></td>
+          <td >Sentencias de <em>script</em></td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div>
+        <h2><b>Maquetación</b></h2>
+            <img src="Imagenes/Captura de Pantalla 2020-09-15 a la(s) 7.27.28 p. m..png" alt="Maquetación">
+    </div>
+</body>
+
+</html>
