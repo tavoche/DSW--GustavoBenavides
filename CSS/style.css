@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.titulo{
+    text-align: center;
+}
+
+.menu{
+    padding: 5px;
+    background-color: #f0b429;
+    height: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.tabla{
+    width: 80%;
+    margin: 40px;
+}
+
+.imagen{
+    width: 100%;
+    height: 10%;
+}
+
+.segundoBanner{
+    padding: 20px;
+    background-color: #808080;
+    text-align: center;
+}
+.div {
+    padding-left:30px; 
+    float:left; 
+}
+
+.div2 {
+    width: 45%;
+    float:left; 
+    padding: 5px;
+}
+.referencias{
+    font-style: italic;
+}
