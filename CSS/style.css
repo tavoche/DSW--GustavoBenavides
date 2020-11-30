@@ -33,6 +33,12 @@ body {
     padding-left:30px; 
     float:left; 
 }
+.div3 {
+    padding:5px; 
+    float:right; 
+    width: 20%;
+    height: 10%;
+}
 
 .div2 {
     width: 45%;
@@ -41,4 +47,9 @@ body {
 }
 .referencias{
     font-style: italic;
+}
+.div4 {
+    width: 40%;
+    float:left; 
+    padding: 10px;
 }
